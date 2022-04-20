@@ -1,0 +1,401 @@
+/* Body */
+
+body {
+    font-family: 'Candal', 'Segoe UI', Verdana, sans-serif;
+    letter-spacing: 1px;
+    background-color: #FFAF5F;
+
+}
+
+.page-container {
+    position: relative;
+    min-height: 98vh;
+}
+
+/* End of Body */
+
+/* Homescreen */
+.logo {
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 640px) {
+    .logo {
+        height: 100px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.logo2 {
+    height: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.welkom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+/* End of Homescreen */
+
+/* Explain */
+.uitleg {
+    text-align: center;
+}
+
+.logo-uitleg {
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 640px) {
+    .logo-uitleg {
+        height: 100px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* Credits */
+.credits {
+    text-align: center;
+}
+
+.logo-credits {
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 640px) {
+    .logo-credits  {
+        height: 100px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* End of Credits */
+
+/* Game Levels */
+
+.logo-levelscreen {
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 715px) {
+    .logo-levelscreen {
+        height: 100px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.level-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.levels {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-levels {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* End of Game Levels */
+
+/* Mastermind/BigBrainGame */
+.header { /* Logo */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.cross {
+    margin-right: 3px;
+    cursor: pointer;
+
+}
+
+.resultnumber {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.centered {
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    align-items: center;
+    text-align: center;
+  }
+
+.guestnumber-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form-input {
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.guess {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.red-box { /* Answer hints 1 */
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin-right: 5px;
+    border: 3px solid rgb(177, 177, 177);
+    border-radius: 7px;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
+}
+
+.white-box { /* Answer hints 2 */
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-right: 5px;
+    border: 3px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
+}
+
+.black-box { /* Answer hints 3 */
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin-right: 5px;
+    border: 3px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
+}
+
+.logo-completed {
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 715px) {
+    .logo-completed  {
+        height: 100px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.complete { /* Level Complete */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.complete-text { /* Level Complete Text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.logo-failed {
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 715px) {
+    .logo-failed  {
+        height: 100px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/* End of Mastermind/BigBrainGame */
+
+/* Failed */
+
+/* Footer */
+
+.footer{
+    position: absolute;
+    /* bottom: 0px; */
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 2.5rem;  
+    padding-top: 1.5rem;
+
+}
+
+/* End of Footer */
+
+/* Buttons & Alerts */
+.btn-primary {
+    background-color: #FFD287;
+    letter-spacing: 1px;
+    border: none;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #ffc258;
+    color: white;
+    transition: 1;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.center {
+    text-align: center;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.btn-terug-credits  {
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 640px) {
+    .btn-terug-credits  {
+        width: 150px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.alert {
+    margin-top: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+}
+
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+/* End of Buttons & Alerts*/
+
+/* Crap area */
+
+a:visited {
+    color: none;
+  }
+
+.btn-info {
+    background-color: #ffbd4a;
+}
+
+.margin-bottom-10px {
+    margin-bottom: 100px;
+}
+
+.tourne:hover {
+    transition: all 0.5s;
+    animation: mymove 3s;
+}
+
+@keyframes mymove {
+  100% {transform: rotate(360deg);}
+}
+
+@media screen and (max-width: 955px) {
+    .hide-desktop { 
+        display: none;
+    }
+}
+
+@media screen and (min-width: 955px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+.alert-link {
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0px 5px 0px 5px;
+}

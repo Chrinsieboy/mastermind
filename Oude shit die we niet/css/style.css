@@ -1,0 +1,102 @@
+body {
+    font-family: 'Candal', 'Segoe UI', Verdana, sans-serif;
+    letter-spacing: 1px;
+    background-color: #FFAF5F;
+}
+
+/* Einde Body */
+
+
+/* Beginscherm */
+.logo {
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.welkom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #FFD287;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-primary:hover {
+    background-color: #ffc258;
+    color: white;
+    transition: 1;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.center {
+    text-align: center;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+/* Einde Beginscherm */
+
+
+/* Uitleg */
+.uitleg {
+    text-align: center;
+}
+
+/* Einde Uitleg */
+
+
+/* Credits */
+.credits {
+    text-align: center;
+}
+
+.logo3 {
+    height: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Einde Credits */
+
+
+/* Footer */
+
+.footer {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-text {
+    font-size: small;
+}
+
+/* Einde Footer */
+
+/* Overige "troep" */
+
+a:visited {
+    color: none;
+  }
